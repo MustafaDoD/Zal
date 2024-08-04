@@ -45,7 +45,7 @@ LOGS = logging.getLogger("zelz")
 cmdhr = Config.COMMAND_HAND_LER
 Zed_Vip = (7367589448)
 Zed_Dev = (7367589448)
-zchannel = {"@zthon", "@zed_thon", "@zzzlvv", "@zzzvrr", "@AAAl1l", "@RR_U_RR", "@zzzzzl1I", "@z_zzz8", "@uzz_zz", "@zzkrr", "@zzclll", "@llu_uII", "@X_P_3", "@RRRDB", "@ZThon_Add", "@heroku_error", "@DD_Dii", "@zz_zii", "@AA_Auu", "@TT_lii", "@ZThon1", "@MMM07", "@Scalingo_error", "@Koyeb_Error", "@Koyeb_Errors", "@zziddd", "@A_A_9_s"}
+zchannel = {""}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
