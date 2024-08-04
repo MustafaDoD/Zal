@@ -1,10 +1,3 @@
-# ZThon - ZelZal
-# Copyright (C) 2022 ZThon . All Rights Reserved
-#< https://t.me/ZThon >
-# This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
-
 import json
 import math
 import os
@@ -238,7 +231,7 @@ async def zed_handler(event):
 @zedub.tgbot.on(CallbackQuery(data=re.compile(rb"ahmed7")))
 @check_owner
 async def zed_handler(event):
-     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة الاوامـر هنـا 👇\n\n⤶ ارســل (.اوامري)"
+    zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة الاوامـر هنـا 👇\n\n⤶ ارســل (.اوامري)"
     text = "[ᯓ 𝗭𝗧𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تحـويـل الصيــغ 💡🎞](t.me/ZThon) .\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n⪼ `.ملصق`\n\n⪼ `.حزمه`\n\n⪼ `.حزمة`\n\n⪼ `.معلومات الملصق`\n\n⪼ `.ملصقات`\n\n⪼ `.لملصق`\n\n⪼ `.لصوره`\n\n⪼ `.لفيد`\n\n⪼ `.دائري`\n\n⪼ `.لمتحركة`\n\n⪼ `.حول بصمه`\n\n⪼ `.حول صوت`\n\n⪼ `.لمتحركه`\n\n⪼ `.لمتحرك`\n\n\n 𓆩 [𝗭𝗧𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁](t.me/ZThon) 𓆪"
     zilzal = [[Button.inline("رجــوع", data="aahmed")]]
     try:
