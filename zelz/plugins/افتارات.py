@@ -408,7 +408,7 @@ async def _(event):
         zedph = [
             zelzal
             async for zelzal in event.client.iter_messages(
-                "@banaaaat1", filter=InputMessagesFilterPhotos
+                "@x_x_n12", filter=InputMessagesFilterPhotos
             )
         ]
         aing = await event.client.get_me()
